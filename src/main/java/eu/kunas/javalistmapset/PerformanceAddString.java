@@ -9,7 +9,7 @@ import eu.kunas.javalistmapset.performances.VectorSpeedPerformance;
  */
 public class PerformanceAddString {
 
-    private static final Integer times = 50000000;
+    private static final Integer times = 500000;
 
     public static void main(String[] args) {
 
