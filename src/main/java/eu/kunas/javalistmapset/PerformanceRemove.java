@@ -1,8 +1,6 @@
 package eu.kunas.javalistmapset;
 
-import eu.kunas.javalistmapset.performances.ArrayListSpeedPerformance;
-import eu.kunas.javalistmapset.performances.LinkedListSpeedPerformance;
-import eu.kunas.javalistmapset.performances.VectorSpeedPerformance;
+import eu.kunas.javalistmapset.performances.*;
 
 /**
  * Created by Kunas on 08.06.2015.
@@ -15,5 +13,11 @@ public class PerformanceRemove {
         ArrayListSpeedPerformance.removeNext("Some text", times);
         LinkedListSpeedPerformance.removeNext("Some text", times);
         VectorSpeedPerformance.removeNext("Some text", times);
+
+        HashSetSpeedPerformance.removeNext("Some text", times);
+        LinkedHashSetSpeedPerformance.removeNext("Some text", times);
+        TreeSetSpeedPerformance.removeNext("Some text", times);
     }
+
+
 }
