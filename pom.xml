@@ -7,6 +7,7 @@
     <name>Java - List Map Set</name>
     <groupId>eu.kunas.javalistmapset</groupId>
 
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

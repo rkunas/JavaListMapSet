@@ -23,5 +23,7 @@ public class PerformanceAddString {
         LinkedHashMapSpeedPerformance.addSomeString("Some String", times);
         HashTableSpeedPerformance.addSomeString("Some String", times);
         TreeMapSpeedPerformance.addSomeString("Some String", times);
+
+
     }
 }

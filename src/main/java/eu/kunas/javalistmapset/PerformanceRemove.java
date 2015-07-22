@@ -17,6 +17,11 @@ public class PerformanceRemove {
         HashSetSpeedPerformance.removeNext("Some text", times);
         LinkedHashSetSpeedPerformance.removeNext("Some text", times);
         TreeSetSpeedPerformance.removeNext("Some text", times);
+
+        HashMapSpeedPerformance.removeNext("Some String", times);
+        LinkedHashMapSpeedPerformance.removeNext("Some String", times);
+        HashTableSpeedPerformance.removeNext("Some String", times);
+        TreeMapSpeedPerformance.removeNext("Some String", times);
     }
 
 
