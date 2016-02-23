@@ -5,7 +5,7 @@ import eu.kunas.javalistmapset.performances.*;
 /**
  * Created by Kunas on 08.06.2015.
  */
-public class PerformanceRemove {
+public class PerformanceListRemove {
 
     private static final Integer times = 500000;
 
