@@ -3,7 +3,7 @@ package eu.kunas.javalistmapset.model;
 /**
  * Created by RKU on 23.02.2016.
  */
-public class CustomerDto {
+public final class CustomerDto {
 
     private String name;
     private AddressDto address;
@@ -18,5 +18,13 @@ public class CustomerDto {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public AddressDto getAddress() {
+        return address;
+    }
+
+    public void setAddress(AddressDto address) {
+        this.address = address;
     }
 }
