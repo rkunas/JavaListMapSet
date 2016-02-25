@@ -6,6 +6,7 @@ package eu.kunas.javalistmapset.model;
 public class CustomerDto {
 
     private String name;
+    private AddressDto address;
 
     public CustomerDto(String name){
         this.name = name;
